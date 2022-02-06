@@ -1,0 +1,30 @@
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.backgroundData, button {
+	background-color: rgba(0, 0, 0, .2);
+	border: 2px solid rgba(0, 0, 0, .5);
+	border-radius: 20px;
+	padding: 20px;
+	color: white;
+}
+.backgroundData {
+	text-align: center;
+	max-width: 400px;
+	font-size: 30px;
+	font-weight: 550;
+	letter-spacing: 1px;
+}
+button {
+	margin: 20px;
+	font-size: 34px;
+	user-select: none;
+}
